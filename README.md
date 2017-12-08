@@ -1,4 +1,4 @@
-# Counter
+# Character Counter
 A program that uses a class called CounterType to count characters read into the keyboard.
 
 ## Setup
