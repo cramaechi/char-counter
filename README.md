@@ -7,14 +7,14 @@ A program that uses a class called CounterType to count characters read into the
 2. Open terminal and run the git clone command:
 
    ```
-   $ git clone https://github.com/cramaechi/counter.git
+   $ git clone https://github.com/cramaechi/char-counter.git
    ```
-    or [download as ZIP](https://github.com/cramaechi/counter/archive/master.zip).
+    or [download as ZIP](https://github.com/cramaechi/char-counter/archive/master.zip).
 
 3. Go to the project folder:
 
    ```
-   $ cd counter
+   $ cd char-counter
    ```
 
 4. Compile:
@@ -27,7 +27,7 @@ A program that uses a class called CounterType to count characters read into the
 Run:
 
 ```
-$ ./counter
+$ ./char-counter
 ```
 
 Sample Output:
