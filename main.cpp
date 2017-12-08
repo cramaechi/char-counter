@@ -6,21 +6,21 @@ using namespace std;
 
 int main()
 {
-	CounterType counter;
-	counter.setCount(0);
+    CounterType counter;
+    counter.setCount(0);
 
-	cout<<"Please write a random statement: ";
+    cout<<"Please write a random statement: ";
     char c;
 
     do
     {
         cin>>c;
-		counter.incrementCount();
+        counter.incrementCount();
     }while (cin.peek() != '\n');
 
     cout<<endl;
-	cout<<"The CounterType object recorded "<<counter.getCount()<<" characters";
+    cout<<"The CounterType object recorded "<<counter.getCount()<<" characters";
     cout<<" typed."<<endl;
 
-	return 0;
+    return 0;
 }

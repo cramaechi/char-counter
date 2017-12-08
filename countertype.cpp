@@ -17,20 +17,20 @@ void CounterType::setCount(unsigned int newCount)
 
 unsigned int CounterType::getCount()
 {
-	return count;
+    return count;
 }
 
 void CounterType::incrementCount()
 {
-	++count;
+    ++count;
 }
 
 void CounterType::decrementCount()
 {
-	--count;
+    --count;
 }
 
 void CounterType::output()
 {
-	cout<<"Count value: "<<count<<endl;
+    cout<<"Count value: "<<count<<endl;
 }
